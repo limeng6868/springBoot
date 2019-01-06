@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.it.myspringboot.MyspringbootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.016 s <<< FAILURE! - in com.it.myspringboot.MyspringbootApplicationTests
+contextLoads(com.it.myspringboot.MyspringbootApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webLogAop' defined in file [D:\Project\JAVAproject\myspringboot\target\classes\com\it\myspringboot\Aop\WebLogAop.class]: Initialization of bean failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webLogAop' defined in file [D:\Project\JAVAproject\myspringboot\target\classes\com\it\myspringboot\Aop\WebLogAop.class]: Initialization of bean failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webLogAop' defined in file [D:\Project\JAVAproject\myspringboot\target\classes\com\it\myspringboot\Aop\WebLogAop.class]: Initialization of bean failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+

@@ -1,0 +1,13 @@
+com\it\myspringboot\mapper\UserMapper.class
+com\it\myspringboot\mapper\UserRepository.class
+com\it\myspringboot\controller\InterController.class
+com\it\myspringboot\Aop\WebLogAop.class
+com\it\myspringboot\Interceptor\MyAdapter.class
+com\it\myspringboot\test\Test3.class
+com\it\myspringboot\controller\MapperController.class
+com\it\myspringboot\MyspringbootApplication.class
+com\it\myspringboot\test\MapperTest.class
+com\it\myspringboot\domian\Test.class
+com\it\myspringboot\test\InitTest.class
+com\it\myspringboot\Interceptor\MyInterceptor.class
+com\it\myspringboot\domian\User.class
